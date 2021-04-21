@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celular j1 sansung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mesa">
+        <div class="bt-volume">
+            <div class="bt-volume-up" onclick="volUp()"></div>
+            <div class="bt-volume-down" onclick="volDown()"></div>
+        </div>
+        <div class="celular">
+            <div class="placa">
+                <div class="display">
+                    <div class="display-up">
+                        <div class="camera">
+                            <div class="camera-frontal">
+                                <div class="cm">
+                                    <div class="cm-p"></div>
+                                </div>
+                            </div>
+                            <div class="alto-falante"><img src="images/alto-falante.png" alt=""></div>
+                            <div class="a">...</div>
+                        </div>
+                        <div class="sansung">
+                            <div class="a">...</div>
+                            <div class="sansung-p"><img class="img-sansung" src="images/sansung.png" width="100" alt="">
+                            </div>
+                            <div><img src="images/duos.png" width="70" alt="" class="img-duos"></div>
+                        </div>
+                        <div class="tela">
+                            <div class="inicio">
+                                <div class="centro">
+                                    <h3>SAMSUNG</h3>
+                                    <h1>Galaxy J<span>1 mini</span></h1>
+                                </div>
+                                <div class="centro-b">
+                                    <h6>POWERED BY</h6>
+                                    <h1>android</h1>
+                                </div>
+                            </div>
+                            <div class="inicio-2">
+                                <h1>SAMSUNG</h1>
+                            </div>
+                            <div class="conf-box">
+                                <div class="tq">
+                                    Toque
+                                    <div class="bar">
+                                        <div class="conf-box-img"></div><input id="campo" type="range" min="0" max="10"
+                                            value="5" id="bar-ranger">
+                                    </div>
+                                </div>
+                                <div class="media">
+                                    Mídia
+                                    <div class="bar">
+                                        <div class="conf-box-img"></div><input id="campo" type="range" min="0" max="10"
+                                            value="5">
+                                    </div>
+                                </div>
+                                <div>
+                                    Notificações
+                                    <div class="bar">
+                                        <div class="conf-box-img"></div><input id="campo" type="range" min="0" max="10"
+                                            value="5">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="volume-box">
+                                <div class="toque">Toque</div>
+                                <div class="display-volume">
+                                    <div class="som"></div>
+                                    <div class="barra"><input type="range" min="0" max="10" id="campo" class="campo"
+                                            value="5"></div>
+                                    <div class="conf" onclick="noti()"></div>
+                                </div>
+                            </div>
+                            <div class="exit">
+                                <div class="exit2">
+                                    <div class="desligar">
+                                        <img src="images/desligar.png" alt="" width="70" onclick="desligar()">
+                                        <br>Desligar
+                                    </div>
+                                    <div class="reiniciar">
+                                        <div class="desligar">
+                                            <img src="images/reiniciar.png" alt="" width="70" onclick="reiniciar()">
+                                            <br>Reiniciar
+                                        </div>
+                                    </div>
+                                    <div class="mode-emergencia">
+                                        <div class="desligar">
+                                            <img src="images/emer.png" alt="" width="66" onclick="emergencia()">
+                                            <br>Mode de emergência
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="exit-desligar">
+                                O dispositivo será desligado
+                                <div class="bt-des">
+                                    <button onclick="cancelaDesligar()">CANCELAR</button>
+                                    <button onclick="confirmaDesliga()">DESLIGAR</button>
+                                </div>
+                            </div>
+                            <div class="inicio-3" id="iii">
+                                <header>
+                                    <div class="emergencia">
+                                        <p><span class="s">S</span><span class="s">o</span><span class="s">m</span><span
+                                                class="s">e</span><span class="s">n</span><span class="s">t</span><span
+                                                class="s">e</span><span class="s" id="ponto2">.</span><span
+                                                class="s">c</span><span class="s">h</span><span class="s">a</span><span
+                                                class="s">m</span><span class="s">a</span><span class="s">d</span><span
+                                                class="s">a</span></span><span class="s" id="ponto1">.</span><span
+                                                class="s">d</span><span class="s">e</span><span class="s"
+                                                id="ponto">.</span><span class="s">e</span><span class="s">m</span><span
+                                                class="s">e</span><span class="s">r</span><span class="s">g</span><span
+                                                class="s">ê</span><span class="s">n</span><span class="s">c</span><span
+                                                class="s">i</span><span class="s">a</span> </p>
+                                    </div>
+                                    <div class="header">
+                                        <img src="images/header.png" alt="">
+                                    </div>
+                                </header>
+                                <div class="centro">
+                                    <div class="horas">
+                                        <h1 class="aaaa">12:47</h1>
+                                        <p>
+                                        <h3><span class="ds">Mon</span>,<span class="d">1</span> <span
+                                                class="m">february</span></h3>
+                                    </div>
+                                </div>
+                                <div class="footer" onclick="in3()">
+                                    <div><img src="images/tel.png" alt=""></div>
+                                    <div><img src="images/canva-photo-editor(6).png" alt=""></div>
+                                </div>
+                            </div>
+                            <div class="inicio-4">
+                                <div class="containerinicio4">
+                                    <header>
+                                        <div class="emergencia">
+                                        </div>
+                                        <div class="header">
+                                            <img src="images/header.png" alt="">
+                                        </div>
+                                    </header>
+                                    <div class="centro">
+                                        <div class="horas">
+                                            <h1 class="aaaa">12:47</h1>
+                                            <p>
+                                            <h3><span class="ds">Mon</span>,<span class="d">1</span> <span
+                                                    class="m">february</span></h3>
+                                        </div>
+                                        <div class="apps">
+                                            <div class="galeria">
+                                                <img src="images/galeria.png" alt="" width="60">
+                                                <span class="text">Galeria</span>
+                                            </div>
+                                            <div class="playstorie">
+                                                <img src="images/playstore.png" alt="" width="60">
+                                                <span>PlayStorie</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="barrapesquisa">
+                                        <div class="pesq">
+                                            <div >
+                                                <img src="images/googleicone.png" alt="" width="35px">
+                                            </div>
+                                            <div>
+                                                <img src="images/micofrone.png" alt="" width="35px">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="rodaPe">
+                                        <div class="cs">
+                                            <div class="cir" id="ativado"></div>
+                                            <div class="cir" onclick="esquerda()"></div>
+                                        </div>
+                                        <div class="app-r">
+                                            <div class="r-a">
+                                                <img src="images/chamada.png" alt="" width="60px" onclick="chamada()">
+                                                <span>Telefone</span>
+                                            </div>
+                                            <div class="r-a">
+                                                <img src="images/icones recortados/aplicativos micro.png" width="60" alt="">
+                                            <span>Microsoft</span>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container2inicio4">
+                                    <div class="app2">
+                                        <div onclick="ma()">
+                                            <img src="images/internet.png" alt="" width="60px">
+                                            <span>Internet</span>
+                                        </div>
+                                        <div><img src="images/icones recortados/galeria.png" width="60" alt="">
+                                            Galeria</div>
+                                        <div>
+                                            <img src="images/icones recortados/calendario.png" width="60" alt="">
+                                            Calendário
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/camera.png" width="60" alt="">
+                                            Cámera
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/chamada.png" width="60" alt="">
+                                            Telefone
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/conf.png" width="60" alt="">
+                                            Config.
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/contatos.png" width="60" alt="">
+                                            Contatos
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/calculadora.png" width="60" alt=""
+                                                onclick="cal()">
+                                            Calculadora
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/notes.png" width="60" alt="">
+                                            Notes
+                                        </div>
+                                        <div>
+                                            <img src="images/icones recortados/Playmusica.png" width="60" alt="">
+                                            Play Música
+                                        </div>
+                                        <div><img src="images/icones recortados/playstorie.png" width="60" alt="">
+                                            Play Store
+                                        </div>
+                                        <div><img src="images/icones recortados/radio.png" width="60" alt="">
+                                            Rádio</div>
+                                    </div>
+                                    <div class="bt2">
+                                        <div class="bt2-area">
+                                            <div class="cir" onclick="direita()"></div>
+                                            <div class="cir" id="ativado"></div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="calculadora">
+                                <div class="cal">
+                                    <input type="text" class="valor">
+                                </div>
+                                <div class="bts">
+                                    <button onclick="limpar()" class="item ac">C</button>
+                                    <button class="item b">-</button>
+                                    <button class="item c">%</button>
+                                    <button onclick="dividir()" class="item dd">/</button>
+                                    <button class="item e">m+</button>
+                                    <button class="item f">m-</button>
+                                    <button class="item g">mrc</button>
+                                    <button onclick="mult()" class="item h">x</button>
+                                    <button onclick="num(7)" class="item i">7</button>
+                                    <button onclick="num(8)" class="item j">8</button>
+                                    <button onclick="num(9)" class="item k">9</button>
+                                    <button onclick="menos()" class="item l">-</button>
+                                    <button onclick="num(4)" class="item mm">4</button>
+                                    <button onclick="num(5)" class="item n">5</button>
+                                    <button onclick="num(6)" class="item o">6</button>
+                                    <button onclick="somar()" class="item p">+</button>
+                                    <button onclick="num(1)" class="item q">1</button>
+                                    <button onclick="num(2)" class="item r">2</button>
+                                    <button onclick="num(3)" class="item ss">3</button>
+                                    <button onclick="igual()" class="item t">=</button>
+                                    <button onclick="num(0)" class="item u">0</button>
+                                    <button  class="item v">.</button>
+                                    <button  class="item x">+-</button> 
+                                </div>
+                            </div>
+                            <div class="google">
+                                <div class="header">
+                                    <img src="images/pagina google/canva-photo-editor(31).png" width="30px" height="30px" alt="">
+                                    <div class="campops">
+                                        <img width="30" height="30" src="images/pagina google/canva-photo-editor(32).png" alt="">
+                                        www.google.com
+                                    </div>
+                                    <img src="images/pagina google/canva-photo-editor(33).png" width="30px" height="30px" alt="">
+                                </div>
+                                <div class="header2">
+                                    <div class="menu">
+                                        <a href="">TODAS</a>
+                                        <a href="">IMAGENS</a>
+                                    </div>
+                                    <div class="menu2">
+                                        <img src="images/pagina google/canva-photo-editor(34).png" alt="" width="30px" height="30px">
+                                        <img src="images/pagina google/canva-photo-editor(35).png" alt="" width="30px" height="30px">
+                                    </div>
+                                    
+                                </div>
+                                <div class="centrogoogle">
+                                    <img src="images/pagina google/canva-photo-editor(36).png" alt="" width="160px" height="100px">
+                                </div>
+                                <div class="pesquisa-cent">
+                                    <div class="pesquisa-2">
+                                        <div class="ps">
+                                        <img src="images/pagina google/canva-photo-editor(38).png" width="20px" height="20px" alt="">
+                                        </div>
+
+                                    </div>
+                                    <div class="text">
+                                        
+                                        <p><a href="">Homenagem às mulheres que fazem história</a></p>
+                                        <p>Disponibilizado pelo Google em: <a href=""> English</a></p>
+                                    </div>
+                                </div>
+                                <div class="rodaPe-google">
+                                    <div class="brasil">
+                                        Brasil
+                                    </div>
+                                    <div class="confg">
+                                        <div>Configurações</div>
+                                        <div>Privacidade</div>
+                                        <div>Termos</div>
+                                    </div>
+                                    <div class="ropaicones">
+                                        <img src="images/pagina google/canva-photo-editor(45).png" alt="" class="seta-left">
+                                        <img src="images/pagina google/canva-photo-editor(43).png" alt="">
+                                        <img src="images/pagina google/canva-photo-editor(42).png" alt="">
+                                        <img src="images/pagina google/canva-photo-editor(41).png" alt="">
+                                        <img src="images/pagina google/canva-photo-editor(40).png" alt="">
+                                        <img src="images/pagina google/canva-photo-editor(39).png" alt="">
+                                    </div>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="display-down">
+                        <div class="bt-left"><img class="a" src="images/q.png" alt=""></div>
+                        <div class="bt-center">
+                            <div class="bt-up">
+                                <div class="bt-down"></div>
+                            </div>
+                        </div>
+                        <div class="bt-right" onclick="seta()"><img src="images/seta1.png" width="45px" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bt-ligar" onclick="ligar()"></div>
+        <div class="bt-ligar2"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
