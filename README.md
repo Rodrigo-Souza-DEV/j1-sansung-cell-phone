@@ -11,7 +11,7 @@
 
 <h2>🎨 Layouts</h2>
 <h3>Web:</h3>
-<img src="img/jv2.png">
+<img src="images/cl.gif">
 
  <h2 id="autor"> 🦸 Autor</h2>
 
